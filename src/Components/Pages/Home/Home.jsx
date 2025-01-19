@@ -1,7 +1,13 @@
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./Home.css";
 export default function Home() {
   return (
     <>
+      <HelmetProvider>
+        <Helmet>
+          <title>Home</title>
+        </Helmet>
+      </HelmetProvider>
       <section className="Home">
         <div className="container">
           <div className="row">

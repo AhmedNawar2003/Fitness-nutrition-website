@@ -1,15 +1,14 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
-export default function Contact() {
+export default function Profile() {
   return (
     <div>
         <HelmetProvider>
             <Helmet>
-                <title>Contact</title>
+                <title>Profile</title>
             </Helmet>
         </HelmetProvider>
-        <h1>Contact Page</h1>
-      
+        <h1>Profile Page</h1>
     </div>
   )
 }
