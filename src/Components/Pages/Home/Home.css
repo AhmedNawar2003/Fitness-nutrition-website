@@ -1,0 +1,36 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.Home .card {
+  align-items: center;
+}
+.Home .card-body {
+  background-color: antiquewhite !important;
+  padding: 20px;
+  border-radius: 10px !important;
+  width: fit-content;
+  color: var(--color-primary);
+}
+.Home h1 {
+  font-size: 3rem;
+  color: var(--color-quinary);
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease-in-out;
+}
+.Home h2 {
+  font-size: 2rem;
+  color: var(--color-quinary);
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: color 0.3s ease-in-out;
+}

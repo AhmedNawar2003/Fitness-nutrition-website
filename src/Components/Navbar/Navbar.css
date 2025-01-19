@@ -1,0 +1,45 @@
+.header .navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+.header .navbar {
+  background-color: rgba(14, 71, 170, 0.784);
+  padding: 15px 0;
+  position: sticky;
+  z-index: 1000;
+  border-radius: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+.header .navbar-nav {
+  gap: 30px;
+}
+.header .navbar-nav a {
+  color: var(--color-primary);
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+.header .navbar-nav a.active {
+  color: var(--color-quinary);
+}
+.header .navbar-nav a:hover {
+  color: var(--color-quinary);
+}
+.header .navbar .nav-link{
+    position: relative;
+}
+.header .navbar .nav-link::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: var(--color-quinary);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+.header .navbar .nav-link:hover::after {
+  width: calc(100% - 10px);
+  left: 5px;
+}
